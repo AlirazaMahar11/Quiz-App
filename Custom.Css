@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1205191163/photo/a-lot-of-question-mark-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=Fwzowbz2gVku-JQSEhk_BNXdMWiV9luLYiD6c4P7Kns=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 0px;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+}
+
+
+.quizcontainer{
+    margin-left: 14%;
+    border: 6px solid;
+    border-style:dashed;
+    color: rgb(255, 0, 0);
+    width: 1100px;
+    height: 530px;
+    backdrop-filter: blur(7px);
+    border-radius: 20px;
+}
+
+.ques{
+    margin-top: 0px;
+    background-color: aqua;
+    font-size: 60px;
+    color:black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+.inputdiv{
+    font-size: 38px;
+}
+.inputdiv:hover{
+    color: blue;
+    font-size: 40px;
+}
+.opt{
+    color:white;
+    cursor: pointer;
+}
+
+span{
+    color:blue;
+    cursor: pointer;
+}
+
+#btn{
+    margin-top: 0px;
+    border-radius: 15px;
+    height: 60px;
+    width: 1100px;
+    font-size: x-large;
+    background-color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    font-size: 28px;
+}

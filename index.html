@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="Custom.Css">
+</head>
+<body onload="nextQuestion()">
+    <h1>Quiz App</h1>
+    <div class="quizcontainer">
+        <p class="ques" id="ques"></p>
+        
+        <br>
+        <br>
+            <div class="inputdiv">
+                <input onclick="clicked()" value="1" name="options" type="radio" id="large">
+        <span>A&nbsp;<label id="opt1" for="large" class="opt"></label></span>
+            </div>
+        <br>
+
+        <div class="inputdiv"><input onclick="clicked()"  value="2" name="options" type="radio" id="large">
+            <span>B&nbsp;<label id="opt2" for="large" class="opt"></label></span>
+        </div>
+        
+
+        <br>
+            <div class="inputdiv">
+                <input onclick="clicked()" value="3" name="options" type="radio" id="large">
+        <span>C&nbsp;<label id="opt3" for="large" class="opt"></label></span>
+            </div>
+        <br>
+        <br>
+        <button id="btn" disabled onclick="nextQuestion()">Next</button>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="App.js"></script>
+</body>
+</html>
